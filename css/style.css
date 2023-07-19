@@ -178,6 +178,7 @@ background-clip: text;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    margin-bottom: 40px;
 }
 .gallary-box p{
     color: #534C64;
@@ -190,6 +191,11 @@ padding: 10px 0;
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+.gallary-box img:hover{
+    border: 5px solid red;
+    border-radius: 18px;
+
 }
      /* about part  */
 .about-container{
@@ -340,6 +346,12 @@ font-size: 3rem;
     border-radius: 40px ;
   
 }
+.box:hover{
+
+    color: rgb(210, 62, 62);
+    border: 2px solid red;
+}
+
 .mia-box1{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
